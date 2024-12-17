@@ -1,0 +1,13 @@
+"""
+nltk.download()
+
+pip install genism
+pip install pattern
+"""
+
+from nltk.tokenize import sent_tokenize, word_tokenize
+sample = "This is a sample sentence. This is second sample sentence."
+sentence = sent_tokenize(sample), language="english")
+print(sentence)
+word=word_tokenize(sample, language="english")
+print(word)
